@@ -16,7 +16,9 @@
     --sub-title-delay: calc(var(--title-duration) - 200ms);
     --nav-delay: calc(var(--sub-title-delay) + var(--sub-title-duration));
     --btn-grow-delay: var(--nav-delay);
-    --scroll-down-delay:  var(--nav-delay)
+    --scroll-down-delay:  var(--nav-delay);
+
+
   }
   
   .full-screen-header {
@@ -56,7 +58,9 @@
   }
   
   .logo {
-    width: 50px;
+      --size: 50px;
+    width: var(--size);
+    top: 5px;
   }
   
   .nav-list {
